@@ -1,0 +1,19 @@
+{
+  "name": "eslint-rule",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.11.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-myplugin": "./eslint-plugin-myplugin",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
